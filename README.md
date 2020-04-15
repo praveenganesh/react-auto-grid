@@ -1,5 +1,5 @@
 # react-auto-grid
-This component provides easy way to handle grids in react
+This component eases the grid handling in React
 
 # Install
 `$ npm i react-auto-grid`
@@ -41,6 +41,8 @@ import {Wrapper,Grid} from "react-auto-grid";
 | height | auto | height of the grid |
 
 # Browser support
+functions in all active browers
+
 ![](https://i.ibb.co/3zCZxHz/browser-support.png)
 source from https://caniuse.com/
 
@@ -48,7 +50,7 @@ source from https://caniuse.com/
 **simple layout**
 
 ![](https://i.ibb.co/10zm22N/simple.png)
-
+a
 ```
 <Wrapper cols={3}>
   <Grid>
