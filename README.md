@@ -52,7 +52,7 @@ source from https://caniuse.com/
 **simple layout**
 
 ![](https://i.ibb.co/10zm22N/simple.png)
-a
+
 ```
 <Wrapper cols={3}>
   <Grid>
