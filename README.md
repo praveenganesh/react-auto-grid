@@ -1,6 +1,8 @@
 # react-auto-grid
 This component eases the grid handling in React
 
+![](https://i.ibb.co/b3mDMzH/img-gallery.png)
+
 # Install
 `$ npm i react-auto-grid`
 
