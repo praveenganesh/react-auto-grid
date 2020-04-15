@@ -1,6 +1,6 @@
 {
   "name": "react-auto-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module to handle grid in react",
   "keywords": [
     "react",
@@ -12,6 +12,9 @@
 	"react-easy-grid"
   ],
   "main": "index.js",
+  "compilerOptions": {
+   "jsx": "preserve",
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/praveenganesh/react-auto-grid/issues"
   },
-  "homepage": "https://github.com/praveenganesh/react-auto-grid#readme"
+  "homepage": "https://github.com/praveenganesh/react-auto-grid#README"
 }
