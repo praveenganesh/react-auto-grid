@@ -1,6 +1,6 @@
 {
   "name": "react-auto-grid",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A module to handle grid in react",
   "keywords": [
     "react",
@@ -42,7 +42,7 @@
         "react-dom": "^16.0.0",
         "webpack": "^4.5.0",
         "webpack-cli": "^3.2.1"
-    }
+    },
   "author": "praveenganesh",
   "license": "MIT",
   "bugs": {
