@@ -1,0 +1,31 @@
+{
+  "name": "react-auto-grid",
+  "version": "1.0.0",
+  "description": "A module to handle grid in react",
+  "keywords": [
+    "react",
+    "react-component",
+	"react-auto-grid",
+    "react-grid",
+    "react-layout",
+    "react-grid-layout",
+	"react-easy-grid"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praveenganesh/react-auto-grid.git"
+  },
+   "dependencies": {
+	"styled-components": "^5.1.0"
+   },
+  "author": "praveenganesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/praveenganesh/react-auto-grid/issues"
+  },
+  "homepage": "https://github.com/praveenganesh/react-auto-grid#readme"
+}
