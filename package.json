@@ -1,6 +1,6 @@
 {
   "name": "react-auto-grid",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A module to handle grid in react",
   "keywords": [
     "react",
@@ -13,7 +13,7 @@
   ],
   "main": "index.js",
   "compilerOptions": {
-   "jsx": "preserve",
+   "jsx": "preserve"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
