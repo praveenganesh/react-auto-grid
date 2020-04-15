@@ -1,9 +1,8 @@
 # react-auto-grid
 This component provides easy way to handle grids in react
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-![](https://i.ibb.co/b3mDMzH/img-gallery.png)
+# Install
+`$ npm i react-auto-grid`
 
 # Example
 ```sh
@@ -41,8 +40,13 @@ import {Wrapper,Grid} from "react-auto-grid";
 | width | auto | width of the grid |
 | height | auto | height of the grid |
 
+# Browser support
+![](https://i.ibb.co/3zCZxHz/browser-support.png)
+source from https://caniuse.com/
+
 # Examples and usage
-**simple layout:**
+**simple layout**
+
 ![](https://i.ibb.co/10zm22N/simple.png)
 
 ```
@@ -57,7 +61,8 @@ import {Wrapper,Grid} from "react-auto-grid";
 </Wrapper>
 ````        
 
-**row span:**
+**row span**
+
 ![](https://i.ibb.co/4pQS2F6/row-span.png)
 
 
@@ -73,7 +78,8 @@ import {Wrapper,Grid} from "react-auto-grid";
  </Wrapper>
  ``` 
 
-**colmn span:**
+**colmn span**
+
 ![](https://i.ibb.co/44LSmm3/col-span.png)
 
 
@@ -89,7 +95,8 @@ import {Wrapper,Grid} from "react-auto-grid";
  </Wrapper>
  ```
 
-**row size:**
+**row size**
+
 ![](https://i.ibb.co/Z8YJs6K/row-size.png)
 ```
 <Wrapper rowSize={["100px", "200px", "300px"]} cols={3}>
@@ -103,7 +110,8 @@ import {Wrapper,Grid} from "react-auto-grid";
 </Wrapper>
 ```
 
-**row gap:**
+**row gap**
+
 ![](https://i.ibb.co/RS5cmw9/row-gap.png)
 
 
@@ -119,7 +127,8 @@ import {Wrapper,Grid} from "react-auto-grid";
 </Wrapper>
 ```
 
-**position:**
+**position**
+
 ![](https://i.ibb.co/KWqRCC4/position.png)
  ```
  <Wrapper cols={3}><Grid position={[1,1]}>
@@ -133,7 +142,8 @@ import {Wrapper,Grid} from "react-auto-grid";
  </Wrapper>
  ```
 
-**Gap:**
+**Gap**
+
 ![](https://i.ibb.co/nR45P3Y/gap.png)
  ```
  <Wrapper gap="10px" cols={3}>
@@ -146,7 +156,8 @@ import {Wrapper,Grid} from "react-auto-grid";
    </Grid>
  </Wrapper>
  ```
-**column start:**
+**column start**
+
 ![](https://i.ibb.co/rxFLhjD/col-start.png)
 ```
 <Wrapper cols={3}>
@@ -159,7 +170,8 @@ import {Wrapper,Grid} from "react-auto-grid";
   </Grid>
 </Wrapper>
 ```
-**column size:**
+**column size**
+
 ![](https://i.ibb.co/mT1rB7H/col-size.png)
 
 
@@ -176,7 +188,8 @@ import {Wrapper,Grid} from "react-auto-grid";
 ```
 
 
-**column Gap:**
+**column Gap**
+
 ![](https://i.ibb.co/1RwGVSF/col-gap.png)
 
 
@@ -192,7 +205,8 @@ import {Wrapper,Grid} from "react-auto-grid";
 </Wrapper>
 ```
 
-**column:**
+**column**
+
 ![](https://i.ibb.co/Qb9fjQM/cols.png)
 
 ```
