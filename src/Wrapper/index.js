@@ -12,38 +12,37 @@ const WrapperDiv = styled.div`
     ${(props) => props.height && { height: props.height }}
 `;
 
-const colsBuilder = (props) => {
-  let { cols } = props;
+const colsBuilder = (cols) => {
   if (cols) {
     if (Array.isArray(cols)) return cols.join(" ");
-    cols = Array.from(new Array(cols), () => "auto");
-    cols = cols.join(" ");
-    return cols;
+    let colsArray = Array.from(new Array(cols), () => "auto");
+    colsString = colsArray.join(" ");
+    return colsString;
   }
 };
-const rowBuilder = (props) => {
-  if (props.rowSize && Array.isArray(props.rowSize))
-    return props.rowSize.join(" ");
+const rowBuilder = (rowSize) => {
+  if (Array.isArray(rowSize)) return rowSize.join(" ");
 };
-function Wrapper(props) {
-  let { colGap, rowGap, gap, width, height } = props;
-  let cols = colsBuilder(props);
-  let rowSize = rowBuilder(props);
-  if (gap && gap !== "") {
-    colGap = gap;
-    rowGap = gap;
-  }
-
+function Wrapper({
+  colGap,
+  rowGap,
+  gap,
+  width,
+  height,
+  rowSize,
+  cols,
+  children,
+}) {
   return (
     <WrapperDiv
-      cols={cols}
-      colGap={colGap}
-      rowGap={rowGap}
+      cols={colsBuilder(cols)}
+      colGap={gap || colGap}
+      rowGap={gap || rowGap}
       width={width}
       height={height}
-      rows={rowSize}
+      rows={rowBuilder(rowSize)}
     >
-      {props.children}
+      {children}
     </WrapperDiv>
   );
 }

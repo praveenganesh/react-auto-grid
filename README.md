@@ -23,24 +23,24 @@ import {Wrapper,Grid} from "react-auto-grid";
 ```
 # Props
 **Wrapper:**
-| props | default value / use | description |
-| ------ | ------ | ------ |
-| cols | 3 (or) ["100px","200px","300px"] | specifies the number of columns in the layout / specifies the number of columns in the layout with size of each column|
-| rowSize | ["100px","200px","300px"] | specifies the size of rows |
-| colGap | 0px | gap between each columns |
-| rowGap | 0px | gap between each rows |
-| gap | 0px | gap between each rows and columns |
-| width | auto | width of the wrapper |
-| height | auto | height of the wrapper |
+| props   | default value / use              | description                                                                                                            |
+| ------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| cols    | 3 (or) ["100px","200px","300px"] | specifies the number of columns in the layout / specifies the number of columns in the layout with size of each column |
+| rowSize | ["100px","200px","300px"]        | specifies the size of rows                                                                                             |
+| colGap  | 0px                              | gap between each columns                                                                                               |
+| rowGap  | 0px                              | gap between each rows                                                                                                  |
+| gap     | 0px                              | gap between each rows and columns                                                                                      |
+| width   | auto                             | width of the wrapper                                                                                                   |
+| height  | auto                             | height of the wrapper                                                                                                  |
 
 **Grid:**
-| props | default value / use | description |
-| ------ | ------ | ------ |
-| colSpan | 1 | specifies grid to span number of columns|
-| rowSpan | 1 | specifies grid to span number of rows|
-| position | [1,1] | change the position of grid |
-| width | auto | width of the grid |
-| height | auto | height of the grid |
+| props    | default value / use | description                              |
+| -------- | ------------------- | ---------------------------------------- |
+| colSpan  | 1                   | specifies grid to span number of columns |
+| rowSpan  | 1                   | specifies grid to span number of rows    |
+| position | [1,1]               | change the position of child in grid     |
+| width    | auto                | width of the grid                        |
+| height   | auto                | height of the grid                       |
 
 # Browser support
 functions in all active browers
