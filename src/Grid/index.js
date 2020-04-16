@@ -9,30 +9,30 @@ const ItemDiv = styled.div`
   ${(props) => props.width && { width: props.width }}
   ${(props) => props.height && { width: props.height }}
 `;
-const colSpanBuilder = (props) => {
-  if (props.colSpan) return `span ${props.colSpan}`;
+const colSpanBuilder = (colSpan) => {
+  if (colSpan) return `span ${colSpan}`;
 };
-const rowSpanBuilder = (props) => {
-  if (props.rowSpan) return `span ${props.rowSpan}`;
+const rowSpanBuilder = (rowSpan) => {
+  if (rowSpan) return `span ${rowSpan}`;
 };
-function Grid(props) {
-  let { colSpan, rowSpan, position, width, height } = props;
+function Grid({ colSpan, rowSpan, position, width, height, colSpan, rowSpan }) {
   let colStart;
   let colEnd;
-  if (position && Array.isArray(position)) {
+  if (Array.isArray(position)) {
     colStart = position[0] + 1;
-    colEnd = position[1] && position[1] + 1;
+    if (position.length == 2) {
+      colEnd = position[1] + 1;
+    }
   }
-  colSpan = colSpanBuilder(props);
-  rowSpan = rowSpanBuilder(props);
+
   return (
     <ItemDiv
-      colSpan={colSpan}
-      rowSpan={rowSpan}
+      colSpan={colSpanBuilder(colSpan)}
+      rowSpan={rowSpanBuilder(rowSpan)}
       colStart={colStart}
       width={width}
       height={height}
-      colEnd={colEnd && colEnd}
+      colEnd={colEnd}
     >
       {props.children}
     </ItemDiv>
