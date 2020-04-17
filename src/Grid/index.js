@@ -15,7 +15,7 @@ const colSpanBuilder = (colSpan) => {
 const rowSpanBuilder = (rowSpan) => {
   if (rowSpan) return `span ${rowSpan}`;
 };
-function Grid({ colSpan, rowSpan, position, width, height, colSpan, rowSpan }) {
+function Grid({ colSpan, rowSpan, position, width, height, children }) {
   let colStart;
   let colEnd;
   if (Array.isArray(position)) {
@@ -34,7 +34,7 @@ function Grid({ colSpan, rowSpan, position, width, height, colSpan, rowSpan }) {
       height={height}
       colEnd={colEnd}
     >
-      {props.children}
+      {children}
     </ItemDiv>
   );
 }
