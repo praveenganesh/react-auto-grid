@@ -1,3 +1,3 @@
-import Wrapper from "./src/Wrapper";
-import Grid from "./src/Grid";
+import Wrapper from "./Wrapper";
+import Grid from "./Grid";
 export { Wrapper, Grid };
