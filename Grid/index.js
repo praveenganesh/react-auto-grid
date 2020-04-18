@@ -19,6 +19,7 @@ function Grid({ colSpan, rowSpan, position, width, height, children }) {
   let colStart;
   let colEnd;
   if (Array.isArray(position)) {
+    position = position.reverse();
     colStart = position[0] + 1;
     if (position.length == 2) {
       colEnd = position[1] + 1;
