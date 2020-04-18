@@ -16,7 +16,7 @@
     "jsx": "preserve"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
