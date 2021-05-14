@@ -53,7 +53,7 @@ import {Wrapper,Grid} from "react-auto-grid";
 
 functions in all active browers
 
-![](https://i.ibb.co/3zCZxHz/browser-support.png)
+![](https://i.ibb.co/MVffFKj/Screen-Shot-2021-05-14-at-10-26-39-AM.png)
 source from https://caniuse.com/
 
 # Examples and usage
