@@ -24,13 +24,13 @@ const rowBuilder = (rowSize) => {
   if (Array.isArray(rowSize)) return rowSize.join(" ");
 };
 function Wrapper({
-  colGap,
-  rowGap,
-  gap,
-  width,
-  height,
-  rowSize,
-  cols,
+  colGap='',
+  rowGap='',
+  gap='',
+  width='',
+  height='',
+  rowSize='',
+  cols=[],
   children,
 }) {
   return (
